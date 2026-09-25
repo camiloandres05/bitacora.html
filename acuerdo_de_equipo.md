@@ -26,3 +26,4 @@ Ausencias: Si alguien no puede trabajar por fuerza mayor, debe avisar por el can
 Incumplimiento: Si un miembro del equipo no entrega sus tareas en la fecha del Milestone sin justificación, el Líder reportará la situación formalmente.
 Decisiones Técnicas: En caso de desacuerdo sobre cómo programar algo, se debatirá con argumentos técnicos y la decisión final será tomada por el Líder (Arquitecto).
 firma: camilo ardila
+
