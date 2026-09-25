@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href=""
+      rel="stylesheet"
+    />
+    <title>Reporte de Incidencias - SENA</title>
+  </head>
+  <body>
+    <header>
+        <h1>registro de novedades del ambiente de formacion</h1>
+    </header>
+    <main>
+        <!.. seccion de trasparencia y priivacidad ..>
+        <seccion>
+            <h2>aviso de privacidad</h2>
+            <p>los datos que recopilaremos en este formulario (nombre e informacion de cotancto)seran utlizados unica y exclusivamente para gestionar la reparacion y seguimineto de los eqipos o mobiliario del ambiente de formacion. no seran compartidos con terceros </p>
+        </seccion>
+
+        <!.. aqui iniciaremos nuestro formulario en el siguiente paso ..>
+
+        <seccion>
+            <h2>detalles del reporte</h2>
+
+            <form action="#" method="post">
+                <!..campodel texto basico ..>
+                <label for="nombre del aprendiz">nombre del aprendiz:</label>
+                <input type="text" id="nombre completo" name="nombre completo" required <br><br>
+
+                <!.. lista de deplegable (comebox) ..>
+                <label for="tipo novedad">tipo de novedad</label>
+                <select id= "tipo de novedad" name="tipo de novedad" required>
+                    <option value="">selecione una categoria...</option>
+                    <option value="hardware">daño en el equipo computo</option>
+                    <option value="software">falla de software o red </option>
+                    <option value="infraestructura">daño mobiliario o electricidad</option>
+                </select>
+                <br><br>
+        </seccion>
+    </main>
+  </body>
+</html>
