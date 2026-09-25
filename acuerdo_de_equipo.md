@@ -5,7 +5,7 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 Nombre	Rol	Usuario de GitHub
 [camilo andres ardila]	Líder (Arquitecto)	@camiloandres05
 [Nombre del Aprendiz 2]	Desarrollador	@usuario2
-[Nombre del Aprendiz 3]	Desarrollador	@usuario3
+[Sharon Marney Niño]	Desarrollador	@sharonmarney6
 2. Canales de Comunicación
 Para mantener el orden y separar lo profesional de lo personal, usaremos los siguientes canales:
 
@@ -25,3 +25,6 @@ Somos profesionales en formación. Si surgen problemas, actuaremos así:
 Ausencias: Si alguien no puede trabajar por fuerza mayor, debe avisar por el canal oficial con al menos [24 horas] de anticipación para reasignar sus tareas.
 Incumplimiento: Si un miembro del equipo no entrega sus tareas en la fecha del Milestone sin justificación, el Líder reportará la situación formalmente.
 Decisiones Técnicas: En caso de desacuerdo sobre cómo programar algo, se debatirá con argumentos técnicos y la decisión final será tomada por el Líder (Arquitecto).
+
+
+Sharon Marney Ñino Arenas 
