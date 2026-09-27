@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reglas de Bitácoras ADSO</title>
+</head>
+<body>
+  <header>
+    <h1>Reglas de Llenado – Bitácoras ADSO</h1>
+  </header>
+
+  <main>
+    <h2>Versión 01</h2>
+    <p>Plantilla control de trabajo diario ADSO</p>
+
+    <h3>Reglas</h3>
+    <ol>
+      <li><strong>Responsabilidad Única (SRP):</strong> Cada fila documenta un solo evento, tarea o impedimento indivisible. Si realizó tres actividades en el día, registre tres filas independientes.</li>
+      <li><strong>Cero Adjetivos Subjetivos:</strong> Prohibido escribir "estuvo chévere", "fue difícil", "avanzamos bien". Redacte únicamente los hechos técnicos verificables.</li>
+      <li><strong>Inmutabilidad:</strong> Si un registro histórico contiene un error o cambio, no lo borre ni sobrescriba. Cree un nuevo registro con fecha actual indicando: "Corrección/Ajuste al registro ID [X]".</li>
+      <li><strong>Impedimentos:</strong> Si no presentó dificultades, escriba expresamente: "Sin impedimentos operativos".</li>
+    </ol>
+
+    <h3>Guía de llenado por columna</h3>
+    <table border="1">
+      <tr>
+        <th>Columna</th>
+        <th>Descripción y Formato Esperado</th>
+      </tr>
+      <tr>
+        <td>ID</td>
+        <td>Número consecutivo único para cada actividad o fila (ej. 001, 002).</td>
+      </tr>
+      <tr>
+        <td>Timestamp (YYYY-MM-DD HH:MM)</td>
+        <td>Fecha y hora exacta en la que se registra o ejecuta la actividad.</td>
+      </tr>
+      <tr>
+        <td>Autoría (Responsable)</td>
+        <td>Nombre o iniciales del aprendiz responsable de ejecutar la actividad.</td>
+      </tr>
+      <tr>
+        <td>Objeto Técnico</td>
+        <td>Descripción técnica objetiva verificable y concreta de lo ejecutado y su alcance real.</td>
+      </tr>
+      <tr>
+        <td>Evidencia de Ejecución</td>
+        <td>URL del commit, enlace al Pull Request, captura de pantalla o documento entregable.</td>
+      </tr>
+      <tr>
+        <td>Impedimentos / Blockers</td>
+        <td>Descripción técnica del error o impedimento. Si no hubo problemas escribir: "Sin impedimentos operativos".</td>
+      </tr>
+      <tr>
+        <td>Plan de Acción</td>
+        <td>Acción correctiva tomada, próxima tarea programada o paso para desbloquear la actividad.</td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    <p>Proyecto ADSO – Bitácoras 2026</p>
+  </footer>
+</body>
+</html>
